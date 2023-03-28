@@ -23,7 +23,7 @@ const App = () => {
         </Canvas>
       </div>
 
-      <p>Developer Pavlo Voronin, 2023 <b>|</b> Especially for Happyusers as a test task </p>
+      <p>Developed by Pavlo Voronin, 2023 <b>|</b> Especially for Happyusers as a test task </p>
     </>
   );
 };

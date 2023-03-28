@@ -11,7 +11,7 @@ for (let i = 0; i < boxesQty; i++) {
 
 const Box = () => {
   const [isLidsOpen, setIsLidsOpen] = useState(initialStateForLids);
-  const { nodes } = useLoader(GLTFLoader, '../assets/BOX.glb');
+  const { nodes } = useLoader(GLTFLoader, 'https://myassetsfordev.s3.eu-north-1.amazonaws.com/BOX.glb');
  
   const group = useRef();
   
