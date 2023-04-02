@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Storage box for everyday</h1>
+      <h1>Storage box in 3D</h1>
       <p>Use your mouse to drag, rotate, zoom the box. Click on the buttons to open the clasters. Just try it! </p>
 
       <div className="canvas">
@@ -23,7 +23,7 @@ const App = () => {
         </Canvas>
       </div>
 
-      <p>Developed by Pavlo Voronin, 2023 <b>|</b> Especially for Happyusers as a test task </p>
+      <p>Developed by Pavlo Voronin, 2023</p>
     </>
   );
 };
